@@ -1,0 +1,294 @@
+@media(max-width:991px){
+    .shopping-number{
+        top: -5%;
+        right:-2%;
+      }
+      .cart-number{
+        top: -5%;
+        right:-2%;
+      }
+      .nav_scroll{
+        padding-bottom: 0px;
+      }
+      .sidebar-wrapper{
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        transition: all ease 0.3s;
+        z-index: 10;
+      }
+      .d-s-e-o-r{
+         width: 100%;
+      }
+      .recent-orders{
+        width: 100%;
+      }
+      
+      .sidebar-none{
+        transform: translateX(-100%);
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      .sidebar-block{
+        position: absolute;
+        width: 50%;
+        transform: translateX(0%);
+        opacity: 1;
+      }
+      .sidebar-overlay{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9;
+      }
+      .chart-parent{
+        width: 100%;
+      }
+      .map-parent{
+        width: 100%;
+      }
+
+      .app-box{
+        right:0;
+        top: 90%;
+      }
+      .cart-abso{
+        right: 0;
+        top: 90%;
+      }
+      .notification-abso{
+        top: 90%;
+      }
+    
+      .cart-item {
+        gap: 12px;
+      }
+      .arrowUp-btn-parent{
+        bottom: 0%;
+      }
+    
+      .product-content h4 {
+        font-size: 15px;
+      }
+    
+      .product-content p {
+        font-size: 13px;
+      }
+    
+      .product-price {
+        font-size: 16px;
+        min-width: 70px;
+      }
+    
+      .cart-remove-btn {
+        font-size: 26px;
+      }
+    
+      .checkout-btn {
+        font-size: 17px;
+      }
+      .notification-wrapper {
+        max-width: 310px;
+      }
+    
+      .notification-item {
+        padding: 18px 15px;
+      }
+    
+      .notification-text {
+        font-size: 14px;
+      }
+    
+      .notification-tabs {
+        padding: 10px 12px;
+        font-size: 14px;
+      }
+      .notification-abso{
+       right:0;
+       margin-top: 10px;
+       margin-left: 4px;
+      }
+      .profile-box{
+        right: 2%;
+        top: 90%;
+      }
+      .home-sec-2-items{
+        width: 265px;
+      }
+      .chart-second-div-item{
+        width: 50%;
+      }
+      .bt{
+        border-top: 1px solid var(--primary-e9ebec);
+      }
+      .best-selling-products-parent, .top-sellers-parent{
+        width: 100%;
+      }
+      .njff{
+        width: 100%;
+      }
+      .jf-fa{
+        width: 100%;
+      }
+      .ff-af{
+        width: 100%;
+      }
+      .analytic-chart-parent{
+        width: 100%;
+      }
+      .analytic-map-parent{
+        width: 100%;
+      }
+      .analytics-ls-item{
+        width: 100%;
+        max-height: 460px;
+      }
+      .asfka{
+        flex-wrap: wrap;
+      }
+      .crm-last-chart{
+        height: 100%;
+      }
+      .deals-status, .my-tasks{
+        width: 100%;
+      }
+      .gapping-in-sm-nav{
+          gap: 13px;
+      }
+      .flag-box {
+        right: 20%;
+      }
+      .navbar-honor{
+        margin-bottom: 70px;
+      }
+      .closing-deals-card{
+        width: 100%;
+      }
+      .closing-deals-header {
+        padding: 14px 16px;
+      }
+    
+      .closing-deals-title {
+        font-size: 14px;
+      }
+    
+      .closing-deals-table thead th,
+      .closing-deals-table tbody td {
+        padding: 10px 12px;
+      }
+      .projects-my-task-table, .liusvma, .mfajfa, .blog-sec1-p1, .fafjaf0a, .blog_sec1_p2, .mfajajvm, .nfafajoa, .uaafafoa{
+        width: 100%;
+      }
+}
+
+    
+
+@media(min-width:992px){
+  .logo-parent{
+      display: flex;
+  }
+  .project-sec1-boxes{
+    width:32% ;
+  }
+  .pages-1-section{
+    border-top: 1px solid var(--primary-analytic-sec-1-border-top);
+  }
+  .crm-box-1, .three-boxes-border{
+    border-right: 1px solid var(--primary-e9ebec);
+ }
+ .crm-last-chart{
+  width: 100%;
+ }
+}
+@media(max-width:576px){
+  .cart-box {
+    padding: 18px;
+    width: 320px;
+  }
+  .flag-box {
+    right: 32%;
+  }
+  .footer{
+    justify-content: center !important;
+  }
+  .sidebar-block{
+    width: 80%;
+  }
+  .fjafjafa{
+    display: none;
+  }
+  .second_chat_msg{
+    width: 150px;
+  }
+}
+@media(min-width:540px){
+  .crm-box-1, .three-boxes-border{
+    border-right: 1px solid var(--primary-e9ebec);
+ }
+}
+@media(max-width:539px){
+  .crm-box-1, .three-boxes-border{
+    border-bottom: 1px solid var(--primary-e9ebec);
+ }
+ .crm-pages-s2-boxes{
+  width: 100%;
+ }
+ .crm-charts, .crm-last-chart{
+  width: 100%;
+ }
+ .tasks-para{
+  max-width: 140px;
+}
+.project-sec1-boxes{
+  width:100% ;
+}
+}
+@media(max-width:320px){
+  .notification-abso{
+    right:0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 4px;
+   }
+}
+@media(max-width: 359px){
+  .nav-login-btn{
+  padding: 4px 7px;
+  font-size: 11px;
+  margin-left: 0px;
+  margin-top: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .closing-deals-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .closing-deals-select {
+    width: 100%;
+  }
+}
+@media (max-width: 768px){
+
+  .usc-event-row{
+    gap:12px;
+  }
+
+  .usc-event-date{
+    width:52px;
+    height:52px;
+    min-width:52px;
+  }
+
+  .usc-event-time{
+    min-width:auto;
+    font-size:13px;
+  }
+}

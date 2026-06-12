@@ -1,0 +1,20 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+const ScrollTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const container = document.querySelector(".mainLayout-no-2");
+
+    if (container) {
+      container.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  }, [pathname]);
+
+  return null;
+};
+
+export default ScrollTop;
