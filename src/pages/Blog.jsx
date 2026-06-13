@@ -419,19 +419,19 @@ const Blog = () => {
                 <div className='d-flex w-100 flex-column'>
                   <div className='d-flex w-100 justify-justify-content-between'>
                     <div className='w-100'>
-                      <h6 className='home-sec-2-box-h5 mb-0'>Anna Adame</h6>
+                      <h6 className='home-sec-2-box-h5 mb-0 nafacmofm'>Anna Adame</h6>
                       <p className='mb-0 mt-1' style={{fontSize:"13px", color:"#878a99"}}>Founder</p>
                   </div>
                   <button className='project-ls-btn d-flex align-items-center rounded-1 mt-1'>
                     <IoIosSettings/> Setting
                   </button>
                   </div>
-                  <div className='d-flex justify-content-between mt-4'>
+                  <div className='d-flex justify-content-between mt-4 afjaF0FFA'>
                     {
                       project_last_data.map((item)=>{
                         return <div key={item.id} className='p-2 rounded-1 fanhfOJA'>
-                        <p className='mb-0' style={{fontSize:"13px", color:"#878a99"}}>{item.text}</p>
-                        <p className='mb-0'>{item.value}</p>
+                        <p className='mb-0 text-truncate' style={{fontSize:"13px", color:"#878a99"}}>{item.text}</p>
+                        <p className='mb-0 text-truncate'>{item.value}</p>
                       </div>})
                     }
                   </div>

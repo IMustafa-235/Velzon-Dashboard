@@ -256,13 +256,19 @@
     margin-left: 4px;
    }
 }
-@media(max-width: 359px){
+@media(max-width: 375px){
   .nav-login-btn{
   padding: 4px 7px;
   font-size: 11px;
   margin-left: 0px;
   margin-top: 0px;
   }
+.nafacmofm{
+  width: 40px;
+}
+.fanhfOJA{
+  width: 50px;
+}
 }
 @media (max-width: 576px) {
   .closing-deals-header {
