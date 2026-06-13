@@ -1,16 +1,79 @@
-# React + Vite
+# Velzon Dashboard Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive admin dashboard built with a clean UI/UX inspired by the Velzon design system. This project provides a complete dashboard solution for managing analytics, users, reports, and application settings.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📊 Interactive Analytics Dashboard
+* 👥 User Management System
+* 📈 Sales & Revenue Reports
+* 🔔 Real-Time Notifications
+* 🌙 Dark & Light Theme Support
+* 📱 Fully Responsive Design
+* 🔐 Authentication & Authorization
+* 📋 Data Tables with Sorting & Filtering
+* 📅 Calendar & Task Management
+* 📂 File Upload & Management
 
-## React Compiler
+## Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Frontend: HTML5, CSS3, JavaScript
+* Framework: React / Next.js
+* Styling: Bootstrap / Tailwind CSS
+* Charts: ApexCharts / Chart.js
+* Icons: Remix Icons
+* Backend: Node.js / Express (Optional)
+* Database: MongoDB / MySQL (Optional)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/dashboard.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd dashboard
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── layouts/
+├── assets/
+├── services/
+├── hooks/
+└── utils/
+```
+
+## Screenshots
+
+Add dashboard screenshots here to showcase the UI and functionality.
+
+## Contributing
+
+Contributions are welcome. Feel free to fork the repository and submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
